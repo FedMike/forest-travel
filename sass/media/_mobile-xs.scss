@@ -1,0 +1,299 @@
+@media (max-width: 599px) {
+    .container {
+        width: auto;
+    }
+
+    .header-top,
+    .header-content {
+        width: 100%;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .header-title {
+        margin-bottom: 10px;
+        font-size: 32px;
+    }
+
+    .header-content p {
+        font-size: 18px;
+    }
+
+    .header-nav-button {
+        margin-right: 0;
+    }
+
+    /* Main */
+
+    .main {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .main .container {
+        width: 100%;
+    }
+
+    .main-row {
+        flex-direction: column-reverse;
+    }
+
+    .main-row:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .main-row:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    .main .main-header {
+        font-size: 34px;
+        line-height: 1;
+    }
+
+    .main-content-text {
+    }
+
+    .main-content-text p {
+    }
+
+    .main-img {
+        width: auto;
+        height: 150px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    /* Footer */
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-logo {
+        margin-bottom: 10px;
+    }
+
+    .footer-widgets-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .footer-widgets-wrapper > * {
+        width: 100%;
+    }
+
+    .footer-widget:not(:last-child) {
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    .footer-widget-services {
+        display: block;
+    }
+
+    .footer-widget-title {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .footer-widget-list {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+
+    .footer-widget-list li {
+        margin-bottom: 10px;
+    }
+
+    .footer-widget-contacts li {
+        margin-bottom: 15px;
+    }
+
+    .inner-page-tours-header {
+        margin-bottom: 30px;
+    }
+
+    .inner-page .main-header {
+        font-size: 28px;
+        line-height: 1;
+    }
+
+    .cards-wrapper {
+        row-gap: 20px;
+    }
+
+    .cards-row {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .card {
+        width: 290px;
+    }
+
+    .card-title-wrapper {
+        height: 50px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .card-title {
+        font-size: 20px;
+    }
+
+    .cards-column {
+        row-gap: 20px;
+    }
+
+    .card.bigger {
+        width: 290px;
+    }
+
+    .card.small {
+        width: 290px;
+    }
+
+    /* Tracking */
+
+    .inner-page--tours {
+        padding-bottom: 40px;
+    }
+
+    .article-page-nav-title {
+        font-size: 22px;
+    }
+
+    .article-page-nav-list {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+
+    .article-page-nav-list a {
+        padding-top: 7px;
+        padding-bottom: 7px;
+    }
+
+    .hided-br br {
+        display: initial;
+    }
+
+    .article-page-article {
+        width: auto;
+        margin-bottom: 30px;
+    }
+
+    .article-page-article h1 {
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+
+    .article-page-article h2,
+    .article-page-article h3 {
+        line-height: 1;
+    }
+
+    .article-page-article h2 {
+        margin-top: 0;
+        font-size: 32px;
+    }
+
+    .article-page-article h3 {
+        margin-top: 0;
+        font-size: 26px;
+    }
+
+    .article-page-article h4 {
+        margin-top: 25px;
+        font-size: 22px;
+    }
+
+    /* Contacts */
+
+    .contact-info {
+        row-gap: 30px;
+    }
+
+    .contact-block-title {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .contact-block-body {
+        font-size: 16px;
+    }
+
+    .contact-list {
+        line-height: 1.3;
+    }
+
+    .contact-list li + li {
+        margin-top: 20px;
+    }
+    .contact-list-icon {
+        padding-left: 33px;
+    }
+
+    .contact-list-icon::before {
+        top: 3px;
+    }
+
+    .contact-block-map {
+        height: 155px;
+    }
+
+    .form {
+        padding: 20px 15px 30px;
+    }
+
+    .form-title {
+        font-size: 24px;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 1.3;
+    }
+
+    .form-group:last-of-type {
+        margin-bottom: 20px;
+    }
+
+    .form-group-title {
+        margin-bottom: 9px;
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
+    .form-group-row {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .form-group-row > .input + .input {
+        margin-left: 0;
+    }
+
+    .input {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .radio-row {
+        margin-bottom: 10px;
+    }
+
+    .checkbox-row {
+        margin-bottom: 20px;
+        padding-right: 5px;
+    }
+
+    .form .button {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+}
